@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -14,4 +20,93 @@ ul {
 .one {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    padding: 30px;
+    align-items: center;
+}
+
+.image {
+    width: 500px;
+    height: 200px;
+}
+.left {
+    gap: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.onehead {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.onebody {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0;
+
+}
+
+button, .bluebox {
+    background-color: #3882f6;
+}
+
+.twoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.twocontent {
+    display: flex;
+    justify-content: start;
+    font-size: 18px;
+    color: gray;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: center;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.right-link, .onebody {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-link {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.one, .two, .three {
+    height: 300px;
+}
+
+img {
+    width: 100px;
+    height: 100px
 }
